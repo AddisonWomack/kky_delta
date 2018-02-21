@@ -1,0 +1,111 @@
+Body {
+    font-family: Garamond;
+    color: #841617;
+    background-color: #e4e0c3;
+}
+
+a {
+    color: #254467;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+img {
+    border: solid 4px #FDF9D8;
+}
+
+article {
+    background-color: #FDF9D8;
+    color: black;
+    float: left;
+    width: 80%;
+}
+
+Header {
+    background-color:#FDF9D8;
+    color: #e4e0c3;
+    font-size: x-large;
+}
+
+Footer {
+    font-size: medium;
+    color: #e4e0c3;
+    background-color: #807662;
+}
+
+div.line {
+    border-bottom: solid;
+    border-color: black;
+    border-bottom-width: thick;
+}
+
+div.clear {
+    clear: both;
+}
+
+H1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: inherit;
+}
+
+H2 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: inherit;
+}
+
+H3 {
+    font-size: x-large;
+    font-weight:bold;
+    color: inherit;
+}
+
+H4 {
+    font-size: large;
+    font-weight:bold;
+    color: inherit;
+}
+
+H5 {
+    font-size: large;
+    color: inherit;
+}
+
+P {
+    font-size: medium;
+}
+
+.Main {
+    background-color: #841617;
+    color: white;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.KKY {
+    background-color: #254467;
+    color: white;
+}
+
+.Crimson {
+    background-color: #841617;
+    color: #FDF9D8;
+}
+
+.Cream {
+    background-color: #FDF9D8;
+    color: black;
+}
+
+.navigation {
+    background-color: #807662;
+    color: black;
+}
+
+.OU {
+    background-color: #841617;
+    color: #FDF9D8
+}
+

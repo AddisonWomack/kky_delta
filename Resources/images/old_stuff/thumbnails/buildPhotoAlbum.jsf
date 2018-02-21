@@ -1,0 +1,132 @@
+App.progressCountTotal = 16;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/area.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'area.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/area_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/area_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/area_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/area_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/area_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/area_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/blsing.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'blsing.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/blsing_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/blsing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/blsing_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/blsing_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/blsing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/blsing_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/colin.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'colin.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/colin_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/colin_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/colin_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/colin_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/colin_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/colin_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/guyswb.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'guyswb.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/guyswb_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/guyswb_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/guyswb_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/guyswb_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/guyswb_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/guyswb_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/jammin.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'jammin.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/jammin_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/jammin_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/jammin_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/jammin_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/jammin_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/jammin_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/leslie_and_schuster.gif');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'leslie_and_schuster.gif';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/leslie_and_schuster_gif.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/leslie_and_schuster_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/leslie_and_schuster_gif.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/leslie_and_schuster_gif.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/leslie_and_schuster_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/leslie_and_schuster_gif.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/mario.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'mario.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/mario_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/mario_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/mario_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/mario_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/mario_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/mario_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/mario1.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'mario1.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/mario1_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/mario1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/mario1_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/mario1_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/mario1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/mario1_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/otbsing.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'otbsing.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/otbsing_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/otbsing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/otbsing_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/otbsing_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/otbsing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/otbsing_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/pledge.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'pledge.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/pledge_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/pledge_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/pledge_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/pledge_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/pledge_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/pledge_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/steve.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'steve.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/steve_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/steve_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/steve_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/steve_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/steve_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/steve_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/study.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'study.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/study_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/study_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/study_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/study_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/study_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/study_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/table.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'table.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/table_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/table_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/table_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/table_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/table_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/table_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/toga.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'toga.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/toga_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/toga_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/toga_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/toga_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/toga_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/toga_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/will.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'will.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/will_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/will_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/will_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/will_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/will_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/will_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/work.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'work.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/work_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/work_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/images/work_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/work_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/work_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/old_stuff/thumbnails/work_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+'done';

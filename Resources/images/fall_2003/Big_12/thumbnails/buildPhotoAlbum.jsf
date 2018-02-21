@@ -1,0 +1,12 @@
+App.progressCountTotal = 1;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/fall_2003/Big_12/serious_ones.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'serious_ones.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/fall_2003/Big_12/images/serious_ones_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/fall_2003/Big_12/images/serious_ones_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/fall_2003/Big_12/images/serious_ones_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+if (!Files.exists('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/fall_2003/Big_12/thumbnails/serious_ones_jpg.jpg') || confirm('file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/fall_2003/Big_12/thumbnails/serious_ones_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Christopher/My Documents/Web Page/KKY/New Website/photos/fall_2003/Big_12/thumbnails/serious_ones_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200});
+fw.closeDocument(doc);
+'done';
